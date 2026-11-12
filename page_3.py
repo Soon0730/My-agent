@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("My Streamlit App_Page 3")
+st.title("My Streamlit App_Ajou University")

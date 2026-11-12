@@ -29,9 +29,6 @@ tavily_tool = TavilySearch(
 )
 
 agent = create_agent(model, tools = [get_weather, tavily_tool]) # agent 객체 생성
-result = agent.invoke(
-    {"messages" : [HumanMessage(prompt)]}
-)
 
 st.title("Chatbot")
 

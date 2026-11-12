@@ -10,7 +10,7 @@ pages = st.navigation([home, page_1, page_2, page_3], position="top")
 pages.run()
 
 
-# st.title("My Streamlit App")    
+st.title("My Streamlit App")    
 
 # st.write("Welcome to my Streamlit application!") 
 
